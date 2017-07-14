@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.no-padding{
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.head-sec{
+    
+    padding:30px 0 40px 0;
+    background: url('../image/map2.jpg')  no-repeat center;
+    background-size: cover;
+}
+
+.logo-bar{
+    padding:35px 0 50px;
+    background-color:#0c0c0c;
+}
+
+.left-menu{
+    float: left;
+    width:50%;
+    margin: 0 auto;
+}
+.left-menu li{
+    float: left;
+    list-style: none;
+    display: inline-block;
+    padding: 0 0 0 170px;
+    margin: 0;
+     
+}
+.left-menu li a{
+    text-decoration: none;
+     color:#c61017;
+    font-weight: 600;
+    font-size: 18px;
+}
+.left-menu li a:hover{
+    text-decoration: none;
+    color:#3E8FD5;
+}
+.right-menu{
+   width: 50%;
+   float: right;
+    margin: 0 auto;
+}
+.right-menu li{
+    float: right;
+    list-style: none;
+    display:inline-block;
+     padding: 0 170px 0 0;
+}
+.right-menu li a{
+    text-decoration: none;
+    color: #c61017;
+    font-weight: 600;
+    font-size: 18px;
+}
+.right-menu li a:hover{
+    text-decoration: none;
+    color:#3E8FD5;
+}
+.logo{
+    top:0;
+    left: 0;
+    right: 0;
+    max-height: 150px;
+    max-width: 150px;
+    margin:0 auto;
+    position: absolute;
+   
+    
+}
+.header h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding:60px 0 0;
+}
+.journey{
+    padding: 10px 50px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+     color:white;
+}
+.game-details h2,h3{
+     text-align: center;
+     color: white;
+}
+
+.game-details {
+    padding:20px 0 0;
+    text-align: center;
+}
+.parag  {
+    padding-bottom: 40px !important;
+    max-width: 250px;
+    margin: 0 auto;
+    color: white;
+    font-size: 16px;
+}
+.game-details a{
+    
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #c61017;
+}
+.game-details a:hover{
+    
+    text-decoration: none;
+    color:#c61017;
+    background-color:white;
+}
+.mock-up{
+    max-height: 60%;
+    max-width: 75%;
+    
+}
+.Download-sec{
+    padding: 20px 0 50px;
+}
+.hybrid{
+    color: #333333;
+    text-align: center;
+}
+.hybrid h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.hybrid h3,p{
+    color: #333333;
+}
+.hybrid p{
+    font-size: 18px;
+}
+
+.multi{
+    color: #c61017;
+}
+.down{
+     text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+    background-color: #c61017;
+    border: none !important;
+}
+.down:hover{
+     text-decoration: none;
+    color:#c61017;
+    background-color:white;
+    border: 1px solid #c61017 !important;
+}
+.win-down{
+    padding: 5px 10px;
+    color: white;
+    background-color: #c61017;
+    border: none !important;
+    display:none;
+    margin: 0 3px;
+    
+}
+.fa{
+    padding:0  10px 0 0;
+}
+.android{
+    text-align: center;
+}
+.apple{
+    text-align: center;
+    padding: 15px 0 0;
+}
+.apple-logo{
+     margin: 0 auto;
+     max-width: 270px;
+    max-height: 270px;
+    margin-bottom: 20px;
+}
+.and-logo{
+    margin: 0 auto;
+}
+.win{
+    text-align: center;
+     padding: 15px 0 0;
+}
+.win-logo{
+     max-height: 270px;
+    max-width: 270px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.pet-container{
+    width: 100%;
+    background: url('../image/play-back1.png')  center no-repeat;
+    background-size: cover;
+    padding:0 0 350px  0;
+    margin: 0;
+   
+}
+hr{
+    padding: 0;
+    margin: 0;
+}
+.play-con{
+    text-align: center;
+    background-color: #F2F3F4;
+    padding: 0 !important;
+}
+.play-con h2{
+    color: #333333;
+    padding:15px 0 20px;
+    font-weight: 600;
+}
+.instruct{
+    padding: 40px 0 220px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.instruct p{
+    font-size: 18px;
+}
+.bold-ins{
+    font-weight: 600;
+}
+.pet-container a{
+    text-decoration: none;
+    color:white;
+    padding: 10px 25px;
+    background-color:#c61017;
+    border: 1px solid #c61017;
+    font-size: 24px;
+}
+.pet-container a:hover{
+    font-size: 28px;
+    background-color: #E74C3C;
+}
+
+.details-sec{
+    background: url("../image/backe.jpg") center no-repeat;
+    background-size: cover;
+}
+.brand-logo{
+    width: 300px;
+    height: 180px;
+    margin: 0;
+    padding: 10px;
+}
+.brand img{
+    float: left;
+}
+.details-sec{
+    padding: 20px 0 40px;
+}
+.details-con{
+    text-align: center;
+}
+.details-con h2{
+    color: #333333;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 0 30px;
+}
+
+.details{
+    padding: 50px 0 0;
+}
+
+.details p{
+    font-size: 40px !important;
+    padding: 0 0 10px;
+}
+.inner-details{
+    max-width: 300px;
+    margin: 0 auto;
+}
+.inner-details li{
+    list-style: none;
+    text-align: justify;
+    font-size: 20px;
+}
+.bold-item{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+.about-sec{
+    text-align: center;
+    padding: 20px;
+    background-color:#11E6EA ;
+    text-transform: uppercase;
+}
+.about-sec h2{
+    font-weight: 600;
+    padding: 10px 0;
+}
+.fa-facebook{
+    padding: 10px 13px;
+    border-radius: 50%;
+    background-color:#4867aa; 
+    color: white;
+}
+.footer-sec{
+    padding: 20px 0 10px;
+    background-color:#333333;
+    text-align: center;
+}
+.footer-sec p{
+    color:white;
+}
+.red-col{
+    color: #c61017;
+}
+
+/******************************************************
+    Media Query
+**************************************************/
+@media screen and (max-width: 1140px){
+    .left-menu li {
+        padding: 0 0 0 100px;
+        margin: 0;
+   }
+    .right-menu li {
+        padding: 0 100px 0 0;
+        margin: 0;
+   }
+}
+@media screen and (max-width: 990px) and (min-width: 768px){
+    .apple-logo{
+            max-height: 187px;
+    }
+    .win-logo {
+         max-height: 189px;
+    }
+    .brand-logo {
+        width: 200px;
+        height: 150px;
+        margin: 0;
+        padding: 10px;
+  }
+    .details {
+    padding: 20px 0 0;
+  }
+}
+@media screen and (max-width: 990px){
+    .mock-up{
+    
+    max-width: 100%;
+    
+}
+
+}
+@media screen and (max-width: 846px){
+    .left-menu li {
+        padding: 0 0 0 20px;
+        margin: 0;
+   }
+    .right-menu li {
+        padding: 0 20px 0 0;
+        margin: 0;
+   }
+}
+@media only screen and (max-width:768px){
+    .win-logo{
+     max-height: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+     }
+    .apple-logo{
+     margin: 0 auto;
+     max-width: 80%;
+    max-height: 80%;
+    margin-bottom: 20px;
+  }
+    .brand img {
+         float: none; 
+         margin: 0 auto;
+    }
+}
+@media screen and (max-width: 545px){
+    .logo{
+        max-height: 110px;
+        margin-top: 18px;
+    }
+    .left-menu li a{
+        font-size: 15px;
+    }
+    .right-menu li a{
+        font-size: 15px;
+    }
+    .left-menu li{
+        padding: 0 10px;
+    }
+    .right-menu li{
+        padding: 0 10px;
+    }
+    .header h1{
+        padding: 20px 0 0;
+    }
+    .game-details{
+        padding: 0;
+    }
+    .parag{
+        font-size: 19px;
+    }
+    .mock-up {
+        max-width: 100%;
+        padding-top: 15px;
+   }
+    .instruct {
+       padding: 40px 10px 140px;
+       
+   }
+    .pet-container {
+        padding: 0 0 145px 0;
+        margin: 0;
+   }
+    .details {
+        padding: 0 0 20px;
+   }   
+    .details-con h2{
+        padding: 0 0 15px;
+    }
+    .about-sec p {    
+        font-size: 16px;
+   }
+    .footer-sec p{
+        font-size: 16px;
+    }
+
+}
+@media screen and (max-width: 360px){
+    .header h1 {
+    font-size: 27px;
+  }
+    .logo {
+     max-height: 70px;
+     margin-top: 36px;
+   
+  }
+}
